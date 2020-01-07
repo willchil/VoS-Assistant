@@ -1,0 +1,1770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D059E0B23A0D25500AA221D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636672338959900867E41 /* ContentView.swift */; };
+		3D059E1123A0D47500AA221D /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56372F2338B1EC00867E41 /* Timeline.swift */; };
+		3D059E1223A0D54800AA221D /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56372F2338B1EC00867E41 /* Timeline.swift */; };
+		3D059E1323A0D54C00AA221D /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56372F2338B1EC00867E41 /* Timeline.swift */; };
+		3D273EC3233A19FA0089DD28 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */; };
+		3D273EC5233A1A110089DD28 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */; };
+		3D3AF1EA2339C76200A0162D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3AF1E92339C76200A0162D /* NotificationCenter.framework */; };
+		3D3AF1ED2339C76200A0162D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AF1EC2339C76200A0162D /* TodayViewController.swift */; };
+		3D3AF1F02339C76200A0162D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AF1EE2339C76200A0162D /* MainInterface.storyboard */; };
+		3D3AF1F42339C76200A0162D /* VoS Assistant Today Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D3AF1E82339C76200A0162D /* VoS Assistant Today Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D3AF2082339CD3800A0162D /* SerenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */; };
+		3D3AF20F2339CD3800A0162D /* SerenFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AF20E2339CD3800A0162D /* SerenFrameworkTests.swift */; };
+		3D3AF2112339CD3800A0162D /* SerenFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3AF2012339CD3800A0162D /* SerenFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D3AF2142339CD3800A0162D /* SerenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */; };
+		3D3AF2152339CD3800A0162D /* SerenFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D3AF2222339E31E00A0162D /* PhoneAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5636692338959B00867E41 /* PhoneAssets.xcassets */; };
+		3D55266D23C4700B0097C32D /* ClockKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55266C23C4700A0097C32D /* ClockKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3D5636642338959900867E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636632338959900867E41 /* AppDelegate.swift */; };
+		3D5636662338959900867E41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636652338959900867E41 /* SceneDelegate.swift */; };
+		3D5636682338959900867E41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636672338959900867E41 /* ContentView.swift */; };
+		3D56366A2338959B00867E41 /* PhoneAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5636692338959B00867E41 /* PhoneAssets.xcassets */; };
+		3D56366D2338959B00867E41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D56366C2338959B00867E41 /* Preview Assets.xcassets */; };
+		3D5636702338959B00867E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56366E2338959B00867E41 /* LaunchScreen.storyboard */; };
+		3D56367B2338959B00867E41 /* VoS_AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56367A2338959B00867E41 /* VoS_AssistantTests.swift */; };
+		3D5636862338959B00867E41 /* VoS_AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636852338959B00867E41 /* VoS_AssistantUITests.swift */; };
+		3D56368B2338959B00867E41 /* VoS Assistant WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D56368A2338959B00867E41 /* VoS Assistant WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D5636912338959B00867E41 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56368F2338959B00867E41 /* Interface.storyboard */; };
+		3D56369A2338959C00867E41 /* VoS Assistant WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D5636992338959C00867E41 /* VoS Assistant WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D5636A12338959C00867E41 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636A02338959C00867E41 /* HostingController.swift */; };
+		3D5636A32338959C00867E41 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636A22338959C00867E41 /* ExtensionDelegate.swift */; };
+		3D5636A52338959C00867E41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636A42338959C00867E41 /* NotificationController.swift */; };
+		3D5636A72338959C00867E41 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636A62338959C00867E41 /* NotificationView.swift */; };
+		3D5636A92338959C00867E41 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5636A82338959C00867E41 /* ComplicationController.swift */; };
+		3D5636AB2338959C00867E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5636AA2338959C00867E41 /* Assets.xcassets */; };
+		3D5636AE2338959C00867E41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5636AD2338959C00867E41 /* Preview Assets.xcassets */; };
+		3D575D9723A083AF000A84A7 /* SwifterWatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7B9096233F31800082F329 /* SwifterWatchOS.framework */; };
+		3D575D9823A083AF000A84A7 /* SwifterWatchOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7B9096233F31800082F329 /* SwifterWatchOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D59FDD523A3625B00359B2C /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59FDD423A3625B00359B2C /* WatchView.swift */; };
+		3D7B9055233F2AE60082F329 /* SerenFrameworkWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7B9053233F2AE60082F329 /* SerenFrameworkWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D7B9058233F2AE60082F329 /* SerenFrameworkWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7B9051233F2AE60082F329 /* SerenFrameworkWatch.framework */; };
+		3D7B9059233F2AE60082F329 /* SerenFrameworkWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7B9051233F2AE60082F329 /* SerenFrameworkWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D7B9097233F31890082F329 /* SwifterWatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7B9096233F31800082F329 /* SwifterWatchOS.framework */; };
+		3D7B90A0233F36480082F329 /* WatchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5636922338959C00867E41 /* WatchAssets.xcassets */; };
+		3D7B90A3233F3A0E0082F329 /* Clans.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B90A2233F3A0E0082F329 /* Clans.xcassets */; };
+		3D7B90A4233F3A0E0082F329 /* Clans.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B90A2233F3A0E0082F329 /* Clans.xcassets */; };
+		3D7B90A5233F3A0E0082F329 /* Clans.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B90A2233F3A0E0082F329 /* Clans.xcassets */; };
+		3D7B90A7233F3B630082F329 /* Clans.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7B90A2233F3A0E0082F329 /* Clans.xcassets */; };
+		3D82CEEA23A243B8001DF4A8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82CEE923A243B8001DF4A8 /* MainView.swift */; };
+		3DA3B06C233A1F27002B0E60 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DBBFFBD23AF50F400FF7850 /* SerenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */; };
+		3DBBFFC223AF50FC00FF7850 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D273EB9233A19DC0089DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		3D273EBB233A19DC0089DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		3D273EC1233A19DC0089DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		3D273EC8233A1B100089DD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		3D3AF1F22339C76200A0162D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3AF1E72339C76200A0162D;
+			remoteInfo = "Vos Assistant Today Extension";
+		};
+		3D3AF2092339CD3800A0162D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3AF1FE2339CD3800A0162D;
+			remoteInfo = SerenFramework;
+		};
+		3D3AF20B2339CD3800A0162D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D56365F2338959900867E41;
+			remoteInfo = "VoS Assistant";
+		};
+		3D3AF2122339CD3800A0162D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3AF1FE2339CD3800A0162D;
+			remoteInfo = SerenFramework;
+		};
+		3D5636772338959B00867E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D56365F2338959900867E41;
+			remoteInfo = "VoS Assistant";
+		};
+		3D5636822338959B00867E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D56365F2338959900867E41;
+			remoteInfo = "VoS Assistant";
+		};
+		3D56368C2338959B00867E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5636892338959B00867E41;
+			remoteInfo = "VoS Assistant WatchKit App";
+		};
+		3D56369B2338959C00867E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5636982338959C00867E41;
+			remoteInfo = "VoS Assistant WatchKit Extension";
+		};
+		3D7B9049233F19CC0082F329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3AF1FE2339CD3800A0162D;
+			remoteInfo = SerenFramework;
+		};
+		3D7B9056233F2AE60082F329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7B9050233F2AE60082F329;
+			remoteInfo = SerenFrameworkWatch;
+		};
+		3D7B9095233F31800082F329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7B9067233F2E610082F329;
+			remoteInfo = SwifterWatchOS;
+		};
+		3D7B9098233F318F0082F329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7B9066233F2E610082F329;
+			remoteInfo = SwifterWatchOS;
+		};
+		3DA3B071233A1FFD002B0E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		3DA3B073233A1FFD002B0E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		3DBBFFBF23AF50F400FF7850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D5636582338959900867E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3AF1FE2339CD3800A0162D;
+			remoteInfo = SerenFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D3AF1F82339C76200A0162D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D3AF1F42339C76200A0162D /* VoS Assistant Today Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636B62338959C00867E41 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D56369A2338959C00867E41 /* VoS Assistant WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636BA2338959C00867E41 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3D56368B2338959B00867E41 /* VoS Assistant WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56372A2338972300867E41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3DA3B06C233A1F27002B0E60 /* SwifteriOS.framework in Embed Frameworks */,
+				3D3AF2152339CD3800A0162D /* SerenFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B905D233F2AE60082F329 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D7B9059233F2AE60082F329 /* SerenFrameworkWatch.framework in Embed Frameworks */,
+				3D575D9823A083AF000A84A7 /* SwifterWatchOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		3D3AF1DE2339C56D00A0162D /* VoS Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VoS Assistant.entitlements"; sourceTree = "<group>"; };
+		3D3AF1E82339C76200A0162D /* VoS Assistant Today Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VoS Assistant Today Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3AF1E92339C76200A0162D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3D3AF1EC2339C76200A0162D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		3D3AF1EF2339C76200A0162D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3D3AF1F12339C76200A0162D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3AF1F92339C79900A0162D /* Vos Assistant Today Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vos Assistant Today Extension.entitlements"; sourceTree = "<group>"; };
+		3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SerenFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3AF2012339CD3800A0162D /* SerenFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerenFramework.h; sourceTree = "<group>"; };
+		3D3AF2022339CD3800A0162D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3AF2072339CD3800A0162D /* SerenFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3AF20E2339CD3800A0162D /* SerenFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenFrameworkTests.swift; sourceTree = "<group>"; };
+		3D3AF2102339CD3800A0162D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D55266C23C4700A0097C32D /* ClockKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClockKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.1.sdk/System/Library/Frameworks/ClockKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D5636602338959900867E41 /* VoS Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoS Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5636632338959900867E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5636652338959900867E41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D5636672338959900867E41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D5636692338959B00867E41 /* PhoneAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PhoneAssets.xcassets; sourceTree = "<group>"; };
+		3D56366C2338959B00867E41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D56366F2338959B00867E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5636712338959B00867E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5636762338959B00867E41 /* VoS AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoS AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D56367A2338959B00867E41 /* VoS_AssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoS_AssistantTests.swift; sourceTree = "<group>"; };
+		3D56367C2338959B00867E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5636812338959B00867E41 /* VoS AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VoS AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5636852338959B00867E41 /* VoS_AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoS_AssistantUITests.swift; sourceTree = "<group>"; };
+		3D5636872338959B00867E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D56368A2338959B00867E41 /* VoS Assistant WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoS Assistant WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5636902338959B00867E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3D5636922338959C00867E41 /* WatchAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WatchAssets.xcassets; sourceTree = "<group>"; };
+		3D5636942338959C00867E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5636992338959C00867E41 /* VoS Assistant WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VoS Assistant WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5636A02338959C00867E41 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		3D5636A22338959C00867E41 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3D5636A42338959C00867E41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3D5636A62338959C00867E41 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3D5636A82338959C00867E41 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3D5636AA2338959C00867E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5636AD2338959C00867E41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5636AF2338959C00867E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5636B02338959C00867E41 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3D56372F2338B1EC00867E41 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		3D59FDD423A3625B00359B2C /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		3D7B9051233F2AE60082F329 /* SerenFrameworkWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SerenFrameworkWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7B9053233F2AE60082F329 /* SerenFrameworkWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerenFrameworkWatch.h; sourceTree = "<group>"; };
+		3D7B9054233F2AE60082F329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7B909A233F334C0082F329 /* VoS Assistant WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VoS Assistant WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		3D7B909B233F33580082F329 /* VoS Assistant WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VoS Assistant WatchKit App.entitlements"; sourceTree = "<group>"; };
+		3D7B90A2233F3A0E0082F329 /* Clans.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Clans.xcassets; sourceTree = SOURCE_ROOT; };
+		3D82CEE923A243B8001DF4A8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3AF1E52339C76200A0162D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3AF1EA2339C76200A0162D /* NotificationCenter.framework in Frameworks */,
+				3DBBFFBD23AF50F400FF7850 /* SerenFramework.framework in Frameworks */,
+				3DBBFFC223AF50FC00FF7850 /* SwifteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF1FC2339CD3800A0162D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D273EC5233A1A110089DD28 /* SwifteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF2042339CD3800A0162D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3AF2082339CD3800A0162D /* SerenFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56365D2338959900867E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D273EC3233A19FA0089DD28 /* SwifteriOS.framework in Frameworks */,
+				3D3AF2142339CD3800A0162D /* SerenFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636732338959B00867E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56367E2338959B00867E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636962338959C00867E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D55266D23C4700B0097C32D /* ClockKit.framework in Frameworks */,
+				3D7B9058233F2AE60082F329 /* SerenFrameworkWatch.framework in Frameworks */,
+				3D575D9723A083AF000A84A7 /* SwifterWatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B904E233F2AE60082F329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B9097233F31890082F329 /* SwifterWatchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D273EB2233A19DC0089DD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */,
+				3D273EBC233A19DC0089DD28 /* SwifterMac.framework */,
+				3D7B9096233F31800082F329 /* SwifterWatchOS.framework */,
+				3DA3B072233A1FFD002B0E60 /* SwifterDemoiOS.app */,
+				3DA3B074233A1FFD002B0E60 /* SwifterDemoMac.app */,
+				3D273EC2233A19DC0089DD28 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D3AF1EB2339C76200A0162D /* VoS Assistant Today Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AF20D2339CD3800A0162D /* SerenFrameworkTests */,
+				3D3AF1F92339C79900A0162D /* Vos Assistant Today Extension.entitlements */,
+				3D3AF1EC2339C76200A0162D /* TodayViewController.swift */,
+				3D3AF1EE2339C76200A0162D /* MainInterface.storyboard */,
+				3D3AF1F12339C76200A0162D /* Info.plist */,
+			);
+			path = "VoS Assistant Today Extension";
+			sourceTree = "<group>";
+		};
+		3D3AF2002339CD3800A0162D /* SerenFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AF2012339CD3800A0162D /* SerenFramework.h */,
+				3D3AF2022339CD3800A0162D /* Info.plist */,
+			);
+			path = SerenFramework;
+			sourceTree = "<group>";
+		};
+		3D3AF20D2339CD3800A0162D /* SerenFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AF20E2339CD3800A0162D /* SerenFrameworkTests.swift */,
+				3D3AF2102339CD3800A0162D /* Info.plist */,
+			);
+			path = SerenFrameworkTests;
+			sourceTree = "<group>";
+		};
+		3D5636572338959900867E41 = {
+			isa = PBXGroup;
+			children = (
+				3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */,
+				3D7B90A2233F3A0E0082F329 /* Clans.xcassets */,
+				3D5636672338959900867E41 /* ContentView.swift */,
+				3D56372F2338B1EC00867E41 /* Timeline.swift */,
+				3D5636622338959900867E41 /* VoS Assistant */,
+				3D5636792338959B00867E41 /* VoS AssistantTests */,
+				3D5636842338959B00867E41 /* VoS AssistantUITests */,
+				3D56368E2338959B00867E41 /* VoS Assistant WatchKit App */,
+				3D56369D2338959C00867E41 /* VoS Assistant WatchKit Extension */,
+				3D3AF1EB2339C76200A0162D /* VoS Assistant Today Extension */,
+				3D3AF2002339CD3800A0162D /* SerenFramework */,
+				3D7B9052233F2AE60082F329 /* SerenFrameworkWatch */,
+				3D5636612338959900867E41 /* Products */,
+				3D5637272338972300867E41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5636612338959900867E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5636602338959900867E41 /* VoS Assistant.app */,
+				3D5636762338959B00867E41 /* VoS AssistantTests.xctest */,
+				3D5636812338959B00867E41 /* VoS AssistantUITests.xctest */,
+				3D56368A2338959B00867E41 /* VoS Assistant WatchKit App.app */,
+				3D5636992338959C00867E41 /* VoS Assistant WatchKit Extension.appex */,
+				3D3AF1E82339C76200A0162D /* VoS Assistant Today Extension.appex */,
+				3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */,
+				3D3AF2072339CD3800A0162D /* SerenFrameworkTests.xctest */,
+				3D7B9051233F2AE60082F329 /* SerenFrameworkWatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5636622338959900867E41 /* VoS Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AF1DE2339C56D00A0162D /* VoS Assistant.entitlements */,
+				3D5636632338959900867E41 /* AppDelegate.swift */,
+				3D82CEE923A243B8001DF4A8 /* MainView.swift */,
+				3D5636652338959900867E41 /* SceneDelegate.swift */,
+				3D5636692338959B00867E41 /* PhoneAssets.xcassets */,
+				3D56366E2338959B00867E41 /* LaunchScreen.storyboard */,
+				3D5636712338959B00867E41 /* Info.plist */,
+				3D56366B2338959B00867E41 /* Preview Content */,
+			);
+			path = "VoS Assistant";
+			sourceTree = "<group>";
+		};
+		3D56366B2338959B00867E41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D56366C2338959B00867E41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D5636792338959B00867E41 /* VoS AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D56367A2338959B00867E41 /* VoS_AssistantTests.swift */,
+				3D56367C2338959B00867E41 /* Info.plist */,
+			);
+			path = "VoS AssistantTests";
+			sourceTree = "<group>";
+		};
+		3D5636842338959B00867E41 /* VoS AssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D5636852338959B00867E41 /* VoS_AssistantUITests.swift */,
+				3D5636872338959B00867E41 /* Info.plist */,
+			);
+			path = "VoS AssistantUITests";
+			sourceTree = "<group>";
+		};
+		3D56368E2338959B00867E41 /* VoS Assistant WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3D7B909B233F33580082F329 /* VoS Assistant WatchKit App.entitlements */,
+				3D56368F2338959B00867E41 /* Interface.storyboard */,
+				3D5636922338959C00867E41 /* WatchAssets.xcassets */,
+				3D5636942338959C00867E41 /* Info.plist */,
+			);
+			path = "VoS Assistant WatchKit App";
+			sourceTree = "<group>";
+		};
+		3D56369D2338959C00867E41 /* VoS Assistant WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D7B909A233F334C0082F329 /* VoS Assistant WatchKit Extension.entitlements */,
+				3D5636A02338959C00867E41 /* HostingController.swift */,
+				3D5636A22338959C00867E41 /* ExtensionDelegate.swift */,
+				3D5636A42338959C00867E41 /* NotificationController.swift */,
+				3D59FDD423A3625B00359B2C /* WatchView.swift */,
+				3D5636A62338959C00867E41 /* NotificationView.swift */,
+				3D5636A82338959C00867E41 /* ComplicationController.swift */,
+				3D5636AA2338959C00867E41 /* Assets.xcassets */,
+				3D5636AF2338959C00867E41 /* Info.plist */,
+				3D5636B02338959C00867E41 /* PushNotificationPayload.apns */,
+				3D5636AC2338959C00867E41 /* Preview Content */,
+			);
+			path = "VoS Assistant WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3D5636AC2338959C00867E41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D5636AD2338959C00867E41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D5637272338972300867E41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D55266C23C4700A0097C32D /* ClockKit.framework */,
+				3D3AF1E92339C76200A0162D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D7B9052233F2AE60082F329 /* SerenFrameworkWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3D7B9053233F2AE60082F329 /* SerenFrameworkWatch.h */,
+				3D7B9054233F2AE60082F329 /* Info.plist */,
+			);
+			path = SerenFrameworkWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D3AF1FA2339CD3800A0162D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3AF2112339CD3800A0162D /* SerenFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B904C233F2AE60082F329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B9055233F2AE60082F329 /* SerenFrameworkWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D3AF1E72339C76200A0162D /* VoS Assistant Today Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3AF1F52339C76200A0162D /* Build configuration list for PBXNativeTarget "VoS Assistant Today Extension" */;
+			buildPhases = (
+				3D3AF1E42339C76200A0162D /* Sources */,
+				3D3AF1E52339C76200A0162D /* Frameworks */,
+				3D3AF1E62339C76200A0162D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBBFFC023AF50F400FF7850 /* PBXTargetDependency */,
+			);
+			name = "VoS Assistant Today Extension";
+			productName = "Vos Assistant Today Extension";
+			productReference = 3D3AF1E82339C76200A0162D /* VoS Assistant Today Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3D3AF1FE2339CD3800A0162D /* SerenFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3AF2162339CD3800A0162D /* Build configuration list for PBXNativeTarget "SerenFramework" */;
+			buildPhases = (
+				3D3AF1FA2339CD3800A0162D /* Headers */,
+				3D3AF1FB2339CD3800A0162D /* Sources */,
+				3D3AF1FC2339CD3800A0162D /* Frameworks */,
+				3D3AF1FD2339CD3800A0162D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D273EC9233A1B100089DD28 /* PBXTargetDependency */,
+			);
+			name = SerenFramework;
+			productName = SerenFramework;
+			productReference = 3D3AF1FF2339CD3800A0162D /* SerenFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D3AF2062339CD3800A0162D /* SerenFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3AF2192339CD3800A0162D /* Build configuration list for PBXNativeTarget "SerenFrameworkTests" */;
+			buildPhases = (
+				3D3AF2032339CD3800A0162D /* Sources */,
+				3D3AF2042339CD3800A0162D /* Frameworks */,
+				3D3AF2052339CD3800A0162D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3AF20A2339CD3800A0162D /* PBXTargetDependency */,
+				3D3AF20C2339CD3800A0162D /* PBXTargetDependency */,
+			);
+			name = SerenFrameworkTests;
+			productName = SerenFrameworkTests;
+			productReference = 3D3AF2072339CD3800A0162D /* SerenFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D56365F2338959900867E41 /* VoS Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5636BB2338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant" */;
+			buildPhases = (
+				3D56365C2338959900867E41 /* Sources */,
+				3D56365D2338959900867E41 /* Frameworks */,
+				3D56365E2338959900867E41 /* Resources */,
+				3D5636BA2338959C00867E41 /* Embed Watch Content */,
+				3D56372A2338972300867E41 /* Embed Frameworks */,
+				3D3AF1F82339C76200A0162D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3AF2132339CD3800A0162D /* PBXTargetDependency */,
+				3D56368D2338959B00867E41 /* PBXTargetDependency */,
+				3D3AF1F32339C76200A0162D /* PBXTargetDependency */,
+			);
+			name = "VoS Assistant";
+			productName = "VoS Assistant";
+			productReference = 3D5636602338959900867E41 /* VoS Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5636752338959B00867E41 /* VoS AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5636BE2338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS AssistantTests" */;
+			buildPhases = (
+				3D5636722338959B00867E41 /* Sources */,
+				3D5636732338959B00867E41 /* Frameworks */,
+				3D5636742338959B00867E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5636782338959B00867E41 /* PBXTargetDependency */,
+			);
+			name = "VoS AssistantTests";
+			productName = "VoS AssistantTests";
+			productReference = 3D5636762338959B00867E41 /* VoS AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D5636802338959B00867E41 /* VoS AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5636C12338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS AssistantUITests" */;
+			buildPhases = (
+				3D56367D2338959B00867E41 /* Sources */,
+				3D56367E2338959B00867E41 /* Frameworks */,
+				3D56367F2338959B00867E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5636832338959B00867E41 /* PBXTargetDependency */,
+			);
+			name = "VoS AssistantUITests";
+			productName = "VoS AssistantUITests";
+			productReference = 3D5636812338959B00867E41 /* VoS AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3D5636892338959B00867E41 /* VoS Assistant WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5636B72338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant WatchKit App" */;
+			buildPhases = (
+				3D5636882338959B00867E41 /* Resources */,
+				3D5636B62338959C00867E41 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7B904A233F19CC0082F329 /* PBXTargetDependency */,
+				3D56369C2338959C00867E41 /* PBXTargetDependency */,
+			);
+			name = "VoS Assistant WatchKit App";
+			productName = "VoS Assistant WatchKit App";
+			productReference = 3D56368A2338959B00867E41 /* VoS Assistant WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3D5636982338959C00867E41 /* VoS Assistant WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5636B32338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant WatchKit Extension" */;
+			buildPhases = (
+				3D5636952338959C00867E41 /* Sources */,
+				3D5636962338959C00867E41 /* Frameworks */,
+				3D5636972338959C00867E41 /* Resources */,
+				3D7B905D233F2AE60082F329 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7B9057233F2AE60082F329 /* PBXTargetDependency */,
+			);
+			name = "VoS Assistant WatchKit Extension";
+			productName = "VoS Assistant WatchKit Extension";
+			productReference = 3D5636992338959C00867E41 /* VoS Assistant WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3D7B9050233F2AE60082F329 /* SerenFrameworkWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7B905A233F2AE60082F329 /* Build configuration list for PBXNativeTarget "SerenFrameworkWatch" */;
+			buildPhases = (
+				3D7B904C233F2AE60082F329 /* Headers */,
+				3D7B904D233F2AE60082F329 /* Sources */,
+				3D7B904E233F2AE60082F329 /* Frameworks */,
+				3D7B904F233F2AE60082F329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7B9099233F318F0082F329 /* PBXTargetDependency */,
+			);
+			name = SerenFrameworkWatch;
+			productName = SerenFrameworkWatch;
+			productReference = 3D7B9051233F2AE60082F329 /* SerenFrameworkWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5636582338959900867E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "William Chilcote";
+				TargetAttributes = {
+					3D3AF1E72339C76200A0162D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3D3AF1FE2339CD3800A0162D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3D3AF2062339CD3800A0162D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3D56365F2338959900867E41;
+					};
+					3D56365F2338959900867E41 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3D5636752338959B00867E41 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3D56365F2338959900867E41;
+					};
+					3D5636802338959B00867E41 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3D56365F2338959900867E41;
+					};
+					3D5636892338959B00867E41 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3D5636982338959C00867E41 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3D7B9050233F2AE60082F329 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D56365B2338959900867E41 /* Build configuration list for PBXProject "VoS Assistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5636572338959900867E41;
+			productRefGroup = 3D5636612338959900867E41 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3D273EB2233A19DC0089DD28 /* Products */;
+					ProjectRef = 3D273EB1233A19DC0089DD28 /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3D56365F2338959900867E41 /* VoS Assistant */,
+				3D5636752338959B00867E41 /* VoS AssistantTests */,
+				3D5636802338959B00867E41 /* VoS AssistantUITests */,
+				3D5636892338959B00867E41 /* VoS Assistant WatchKit App */,
+				3D5636982338959C00867E41 /* VoS Assistant WatchKit Extension */,
+				3D3AF1E72339C76200A0162D /* VoS Assistant Today Extension */,
+				3D3AF1FE2339CD3800A0162D /* SerenFramework */,
+				3D7B9050233F2AE60082F329 /* SerenFrameworkWatch */,
+				3D3AF2062339CD3800A0162D /* SerenFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D273EBA233A19DC0089DD28 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 3D273EB9233A19DC0089DD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D273EBC233A19DC0089DD28 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 3D273EBB233A19DC0089DD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D273EC2233A19DC0089DD28 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 3D273EC1233A19DC0089DD28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D7B9096233F31800082F329 /* SwifterWatchOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterWatchOS.framework;
+			remoteRef = 3D7B9095233F31800082F329 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DA3B072233A1FFD002B0E60 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 3DA3B071233A1FFD002B0E60 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DA3B074233A1FFD002B0E60 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 3DA3B073233A1FFD002B0E60 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3AF1E62339C76200A0162D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B90A5233F3A0E0082F329 /* Clans.xcassets in Resources */,
+				3D3AF1F02339C76200A0162D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF1FD2339CD3800A0162D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF2052339CD3800A0162D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3AF2222339E31E00A0162D /* PhoneAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56365E2338959900867E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5636702338959B00867E41 /* LaunchScreen.storyboard in Resources */,
+				3D56366D2338959B00867E41 /* Preview Assets.xcassets in Resources */,
+				3D56366A2338959B00867E41 /* PhoneAssets.xcassets in Resources */,
+				3D7B90A3233F3A0E0082F329 /* Clans.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636742338959B00867E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56367F2338959B00867E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636882338959B00867E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B90A0233F36480082F329 /* WatchAssets.xcassets in Resources */,
+				3D5636912338959B00867E41 /* Interface.storyboard in Resources */,
+				3D7B90A4233F3A0E0082F329 /* Clans.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636972338959C00867E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5636AE2338959C00867E41 /* Preview Assets.xcassets in Resources */,
+				3D7B90A7233F3B630082F329 /* Clans.xcassets in Resources */,
+				3D5636AB2338959C00867E41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B904F233F2AE60082F329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3AF1E42339C76200A0162D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D059E1123A0D47500AA221D /* Timeline.swift in Sources */,
+				3D3AF1ED2339C76200A0162D /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF1FB2339CD3800A0162D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3AF2032339CD3800A0162D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3AF20F2339CD3800A0162D /* SerenFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56365C2338959900867E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D059E1223A0D54800AA221D /* Timeline.swift in Sources */,
+				3D5636642338959900867E41 /* AppDelegate.swift in Sources */,
+				3D5636662338959900867E41 /* SceneDelegate.swift in Sources */,
+				3D82CEEA23A243B8001DF4A8 /* MainView.swift in Sources */,
+				3D5636682338959900867E41 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636722338959B00867E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D56367B2338959B00867E41 /* VoS_AssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D56367D2338959B00867E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5636862338959B00867E41 /* VoS_AssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5636952338959C00867E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5636A12338959C00867E41 /* HostingController.swift in Sources */,
+				3D059E1323A0D54C00AA221D /* Timeline.swift in Sources */,
+				3D059E0B23A0D25500AA221D /* ContentView.swift in Sources */,
+				3D5636A52338959C00867E41 /* NotificationController.swift in Sources */,
+				3D59FDD523A3625B00359B2C /* WatchView.swift in Sources */,
+				3D5636A32338959C00867E41 /* ExtensionDelegate.swift in Sources */,
+				3D5636A72338959C00867E41 /* NotificationView.swift in Sources */,
+				3D5636A92338959C00867E41 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7B904D233F2AE60082F329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D273EC9233A1B100089DD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 3D273EC8233A1B100089DD28 /* PBXContainerItemProxy */;
+		};
+		3D3AF1F32339C76200A0162D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3AF1E72339C76200A0162D /* VoS Assistant Today Extension */;
+			targetProxy = 3D3AF1F22339C76200A0162D /* PBXContainerItemProxy */;
+		};
+		3D3AF20A2339CD3800A0162D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3AF1FE2339CD3800A0162D /* SerenFramework */;
+			targetProxy = 3D3AF2092339CD3800A0162D /* PBXContainerItemProxy */;
+		};
+		3D3AF20C2339CD3800A0162D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D56365F2338959900867E41 /* VoS Assistant */;
+			targetProxy = 3D3AF20B2339CD3800A0162D /* PBXContainerItemProxy */;
+		};
+		3D3AF2132339CD3800A0162D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3AF1FE2339CD3800A0162D /* SerenFramework */;
+			targetProxy = 3D3AF2122339CD3800A0162D /* PBXContainerItemProxy */;
+		};
+		3D5636782338959B00867E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D56365F2338959900867E41 /* VoS Assistant */;
+			targetProxy = 3D5636772338959B00867E41 /* PBXContainerItemProxy */;
+		};
+		3D5636832338959B00867E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D56365F2338959900867E41 /* VoS Assistant */;
+			targetProxy = 3D5636822338959B00867E41 /* PBXContainerItemProxy */;
+		};
+		3D56368D2338959B00867E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5636892338959B00867E41 /* VoS Assistant WatchKit App */;
+			targetProxy = 3D56368C2338959B00867E41 /* PBXContainerItemProxy */;
+		};
+		3D56369C2338959C00867E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5636982338959C00867E41 /* VoS Assistant WatchKit Extension */;
+			targetProxy = 3D56369B2338959C00867E41 /* PBXContainerItemProxy */;
+		};
+		3D7B904A233F19CC0082F329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3AF1FE2339CD3800A0162D /* SerenFramework */;
+			targetProxy = 3D7B9049233F19CC0082F329 /* PBXContainerItemProxy */;
+		};
+		3D7B9057233F2AE60082F329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7B9050233F2AE60082F329 /* SerenFrameworkWatch */;
+			targetProxy = 3D7B9056233F2AE60082F329 /* PBXContainerItemProxy */;
+		};
+		3D7B9099233F318F0082F329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifterWatchOS;
+			targetProxy = 3D7B9098233F318F0082F329 /* PBXContainerItemProxy */;
+		};
+		3DBBFFC023AF50F400FF7850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3AF1FE2339CD3800A0162D /* SerenFramework */;
+			targetProxy = 3DBBFFBF23AF50F400FF7850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3AF1EE2339C76200A0162D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3AF1EF2339C76200A0162D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		3D56366E2338959B00867E41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D56366F2338959B00867E41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D56368F2338959B00867E41 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5636902338959B00867E41 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3AF1F62339C76200A0162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Vos Assistant Today Extension/Vos Assistant Today Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = "Vos Assistant Today Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.Vos-Assistant-Today-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3AF1F72339C76200A0162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Vos Assistant Today Extension/Vos Assistant Today Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = "Vos Assistant Today Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.Vos-Assistant-Today-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D3AF2172339CD3800A0162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SerenFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D3AF2182339CD3800A0162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SerenFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D3AF21A2339CD3800A0162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = SerenFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoS Assistant.app/VoS Assistant";
+			};
+			name = Debug;
+		};
+		3D3AF21B2339CD3800A0162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = SerenFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoS Assistant.app/VoS Assistant";
+			};
+			name = Release;
+		};
+		3D5636B12338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D5636B22338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5636B42338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant WatchKit Extension/VoS Assistant WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VoS Assistant WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "VoS Assistant WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "VoS Assistant WatchKit Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		3D5636B52338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant WatchKit Extension/VoS Assistant WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VoS Assistant WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "VoS Assistant WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "VoS Assistant WatchKit Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		3D5636B82338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant WatchKit App/VoS Assistant WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				IBSC_MODULE = VoS_Assistant_WatchKit_Extension;
+				INFOPLIST_FILE = "VoS Assistant WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		3D5636B92338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant WatchKit App/VoS Assistant WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				IBSC_MODULE = VoS_Assistant_WatchKit_Extension;
+				INFOPLIST_FILE = "VoS Assistant WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		3D5636BC2338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant/VoS Assistant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VoS Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "VoS Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D5636BD2338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VoS Assistant/VoS Assistant.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VoS Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "VoS Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D5636BF2338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoS\\ AssistantTests",
+				);
+				INFOPLIST_FILE = "VoS AssistantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoS Assistant.app/VoS Assistant";
+			};
+			name = Debug;
+		};
+		3D5636C02338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoS\\ AssistantTests",
+				);
+				INFOPLIST_FILE = "VoS AssistantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoS Assistant.app/VoS Assistant";
+			};
+			name = Release;
+		};
+		3D5636C22338959C00867E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = "VoS AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VoS Assistant";
+			};
+			name = Debug;
+		};
+		3D5636C32338959C00867E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				INFOPLIST_FILE = "VoS AssistantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.AwesomeStuff.VoS-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VoS Assistant";
+			};
+			name = Release;
+		};
+		3D7B905B233F2AE60082F329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SerenFrameworkWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFrameworkWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		3D7B905C233F2AE60082F329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BDEERX8B39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SerenFrameworkWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = software.AwesomeStuff.SerenFrameworkWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3AF1F52339C76200A0162D /* Build configuration list for PBXNativeTarget "VoS Assistant Today Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AF1F62339C76200A0162D /* Debug */,
+				3D3AF1F72339C76200A0162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3AF2162339CD3800A0162D /* Build configuration list for PBXNativeTarget "SerenFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AF2172339CD3800A0162D /* Debug */,
+				3D3AF2182339CD3800A0162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3AF2192339CD3800A0162D /* Build configuration list for PBXNativeTarget "SerenFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3AF21A2339CD3800A0162D /* Debug */,
+				3D3AF21B2339CD3800A0162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D56365B2338959900867E41 /* Build configuration list for PBXProject "VoS Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636B12338959C00867E41 /* Debug */,
+				3D5636B22338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5636B32338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636B42338959C00867E41 /* Debug */,
+				3D5636B52338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5636B72338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636B82338959C00867E41 /* Debug */,
+				3D5636B92338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5636BB2338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636BC2338959C00867E41 /* Debug */,
+				3D5636BD2338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5636BE2338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636BF2338959C00867E41 /* Debug */,
+				3D5636C02338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5636C12338959C00867E41 /* Build configuration list for PBXNativeTarget "VoS AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5636C22338959C00867E41 /* Debug */,
+				3D5636C32338959C00867E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7B905A233F2AE60082F329 /* Build configuration list for PBXNativeTarget "SerenFrameworkWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7B905B233F2AE60082F329 /* Debug */,
+				3D7B905C233F2AE60082F329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5636582338959900867E41 /* Project object */;
+}
